@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{e9f23c80-92cc-4209-9b49-ea0ce9d50732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d5efa259-4433-4bf1-9467-6fd30ad43596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{d74a2490-6fbc-4373-8368-840e89b337e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jobs">
+      <UniqueIdentifier>{af75bf3d-ae15-4d02-94e2-1c9e066ff67f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EncodeFlow.cpp" />
+    <ClCompile Include="Gui\MainWindow.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FFmpegRunner.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FFprobeReader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CommandBuilder.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\PresetStore.cpp">
+      <Filter>Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\HistoryStore.cpp">
+      <Filter>Storage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\CommandBuilder.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\PresetStore.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\HistoryStore.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\Preset.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Gui\MainWindow.h">
+      <Filter>Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\FFprobeReader.h">
+      <Filter>Core</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\FFmpegRunner.h">
+      <Filter>Core</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
