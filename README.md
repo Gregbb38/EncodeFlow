@@ -1,2 +1,92 @@
 # EncodeFlow
-A fast and lightweight native FFmpeg frontend for Windows. Convert, compress and batch process videos with simple presets and a modern interface.
+
+EncodeFlow is a fast and lightweight native FFmpeg frontend for Windows.
+
+It makes video conversion and compression simple through a clean interface while keeping the power of FFmpeg under the hood.
+
+## Features
+
+- Drag & drop video files
+- Batch processing queue
+- YouTube presets
+- Discord compression presets
+- Audio extraction (MP3)
+- Real-time progress tracking
+- Conversion history
+- FFmpeg command preview
+- Native C++ / Qt application
+- Low memory footprint
+
+## Screenshots
+
+(Add screenshots here)
+
+## Installation
+
+1. Download the latest installer from the Releases page.
+2. Run `EncodeFlowSetup.exe`.
+3. Launch EncodeFlow from the Start Menu.
+
+## Supported Formats
+
+Input:
+- MP4
+- MOV
+- MKV
+- AVI
+- WebM
+- FLV
+
+Output:
+- MP4
+- MP3
+- Additional formats coming soon
+
+## Why EncodeFlow?
+
+Most video conversion tools are either:
+- overly complex
+- resource hungry
+- Electron-based
+- difficult for non-technical users
+
+EncodeFlow focuses on:
+- simplicity
+- speed
+- native performance
+- practical presets
+
+## Roadmap
+
+### Version 1
+- Video conversion
+- Compression presets
+- Batch queue
+- Conversion history
+
+### Version 2
+- GPU encoding support
+- Custom presets
+- Video thumbnails
+- Improved ETA calculation
+
+### Future
+- Folder monitoring
+- Automatic workflows
+- Advanced encoding profiles
+- Localization
+
+## Reporting Issues
+
+If you encounter a bug, please create an issue and include:
+
+- EncodeFlow version
+- Windows version
+- Steps to reproduce
+- Expected result
+- Actual result
+- Screenshot if available
+
+## License
+
+MIT License
