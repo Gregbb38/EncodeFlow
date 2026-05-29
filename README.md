@@ -22,6 +22,7 @@ It makes video conversion and compression simple through a clean interface while
 <img width="982" height="752" alt="image" src="https://github.com/user-attachments/assets/ba897735-4d43-4411-bb9f-b11260a2733c" />
 <img width="982" height="752" alt="image" src="https://github.com/user-attachments/assets/abd02fae-b019-488b-b693-b4002821c382" />
 <img width="982" height="752" alt="image" src="https://github.com/user-attachments/assets/0c53f6ec-a9cd-4746-8c40-f686e1831623" />
+<img width="982" height="752" alt="image" src="https://github.com/user-attachments/assets/1e08dc89-8c89-4a74-b769-a5b73cc0dc3a" />
 
 
 
