@@ -74,6 +74,21 @@ EncodeFlow focuses on:
 - Video thumbnails
 - Improved ETA calculation
 
+## Windows SmartScreen Notice
+
+EncodeFlow is currently an unsigned application.
+
+Because the project is new and does not yet use a code-signing certificate, Windows SmartScreen may display a warning when launching the installer.
+
+To continue:
+
+1. Click "More info"
+2. Click "Run anyway"
+
+The application is open source and the source code is available on GitHub for inspection.
+
+Code signing may be added in a future release.
+
 ### Future
 - Folder monitoring
 - Automatic workflows
